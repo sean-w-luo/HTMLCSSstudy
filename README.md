@@ -25,3 +25,5 @@ git commit -m"commit info"。之后再 pull 或 merge 就可以顺利进行。 2
 git reset --hard
 git pull
 参考链接：https://blog.csdn.net/qq_20801369/article/details/73290373
+
+Github 仓库更改名字会影响上传吗？
