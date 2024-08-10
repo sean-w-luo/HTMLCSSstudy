@@ -13,6 +13,8 @@ https://www.bilibili.com/video/BV14J4114768/?p=30&spm_id_from=pageDriver&vd_sour
 VS code 上传代码到 github 的教程，参考链接：
 https://blog.51cto.com/u_15715491/5464984
 
+git clone （自己的 git 仓库地址 http 的）https://github.com/sunshinehu39/test.git
+
 VScode 里面拉取(pull)并推送(push)提交是什么意思？可以单独提交吗？
 拉取（‌Pull）‌：‌ 这个操作是从远程仓库获取最新的代码更改，‌ 并将其合并到本地分支中。‌ 在进行提交和推送之前，‌ 通常需要先执行拉取操作，‌ 以确保本地代码与远程仓库保持同步。‌ 拉取操作可以防止由于本地代码落后于远程仓库而导致的合并冲突。‌
 
