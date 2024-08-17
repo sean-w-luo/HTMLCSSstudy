@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h3>input表单元素</h3>
+        范例1 <input type="button" /><br /> <!--按钮效果 -->
+        范例2 <input type="checkbox" /><br /> <!-- 打勾效果 -->
+        范例3 <input type="file" /><br /> <!-- 上传文件按钮，点击可以本地上传文件 -->
+        范例4 <input type="hidden" /><br />
+        范例5 <input type="image" /><br />
+        范例6 <input type="password" /><br />
+        范例7 <input type="radio" /><br />
+        <!-- 在Html的表单(form)中 radio 为单选框，例如网页中经常用到的性别判断: -->
+        范例8 <input type="reset" /><br />
+        范例9 <input type="text" /><br />
+        <h4>**type属性可以让input表单元素设置不同的形态</h4>
+
+        <h3>其他属性</h3>
+        <input type="button" value="按钮上面加了文字" /><br /> <!--按钮上面加了文字 -->
+        <input type="text" value="输入用户名（提示输入信息）" /><br /><!-- 文本框里面输入了提示信息 -->
+        <!--name 的主要作用就是用于区别不同的表单 给后台工作人员看，告诉这个表单作用是什么 -->
+        <input type="text" value="请输入用户名" name="username" /><br>
+        <input type="radio" name="sex" />male<br>
+        <input type="radio" name="sex" />female<br>
+        <h4>关于checked 属性：表示默认选中状态。用于单选按钮和复选按钮:</h4>
+        <input type="radio" name="sex" value="男" checked="checked" />男
+        <input type="radio" name="sex" value="女" />女
+        <h4>type属性可以让input表单元素设置不同的形态</h4>
+        比如：<input type="radio" name="sex" value="男" checked="checked" />男<br>
+        或者：<input type="text" value=“请输入用户名”><br>
+
+        <h3>关于<label> 标签</h3>
+        <!-- 用来划定选择的范围，只有鼠标在某个文字或者画面上面点击 就可以选择这个选项 -->
+        <label for="sex">男</label>
+        <input type="radio" name="sex" id="sex" />
+    </form>
+</body>
+
+</html>
