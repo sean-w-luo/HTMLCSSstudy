@@ -8,11 +8,14 @@
 </head>
 
 <body>
+    <h2>丁香成人社区</h2>
     <form>
-        <h2>青春不再❤️抓紧恋爱👰</h2>
-        性别：<input type="radio" id="male"><label for="male">男♂</label>
-        <input type="radio" id="female"><label for="female">女♀</label><br>
+        <!-- 加上name结合radio属性可以实现2选1 -->
+        性别：<input type="radio" id="male" name="sex"><label for="male">男♂</label>
+        <input type="radio" id="female" name="sex"><label for="female">女♀</label><br>
+
         生日：<select>
+            <option>---请选择年份---</option>
             <option>2005年</option>
             <option>2004年</option>
             <option>2003年</option>
@@ -25,6 +28,7 @@
             <option>1995年</option>
         </select>
         <select>
+            <option>---请选择月份---</option>
             <option>1月</option>
             <option>2月</option>
             <option>3月</option>
@@ -39,6 +43,7 @@
             <option>12月</option>
         </select>
         <select>
+            <option>---请选择日期---</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -60,16 +65,17 @@
             <option>19</option>
             <option>20</option>
         </select><br>
-        地址：<input type="text" value="请输入中文字符"><br>
-        婚姻状况：<input type="radio" id="weihun"><label for="weihun">未婚</label>
-        <input type="radio" id="yihun"><label for="yihun">已婚</label>
-        <input type="radio" id="liyi"><label for="liyi">离异</label><br>
+        地址：<input type="text" value="请输入中文字符"><br> <!-- value属性可以显示默认文字 -->
+        <!-- "check属性可以设置默认选择" -->
+        婚姻状况：<input type="radio" id="weihun" name="status" checked="checked"><label for="weihun">未婚</label>
+        <input type="radio" id="yihun" name="status"><label for="yihun">已婚</label>
+        <input type="radio" id="liyi" name="status"><label for="liyi">离异</label><br>
         喜欢的类型： <input type="checkbox" />熟女 <!-- 打勾效果 -->
         <input type="checkbox" />少妇
-        <input type="checkbox" />学生妹<br>
+        <input type="checkbox" checked="checked" />学生妹<br>
 
         自我介绍：<textarea>成人交友娱乐</textarea><br>
-        <input type="button" value="免费注册"><br>
+        <input type="submit" value="免费注册"><br>
         <input type="checkbox" />我同意注册条款和会员加入<br /> <!-- 打勾效果 -->
         <a href="https://www.czu.edu.cn/" target="_blank">login in</a>
         <ul>
@@ -80,7 +86,8 @@
             <li>身体健康无疾病史</li>
         </ul>
     </form>
-
+    <h3>🤫不定期举办线下交友活动,福利多多有惊喜💦</h3>
+    <img src="photo.jpeg" width="400">
 </body>
 
 </html>
